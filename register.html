@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title> BookDoc: Find a doctor, desntist or other healthcare professionals</title>
+        <title> BookDoc | Register</title>
         <link rel="stylesheet" type="text/css" href="bookdoc.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
@@ -20,33 +20,38 @@
     
             <div class="main">
                 <div id="home">
-                    <h1>BookDoc Search & Book</h1>
+                    <h1>Register</h1>
                     <hr>
-                    <h3>Find Healthcare Professionals</h3>
                     <div id="search">
                         <form>
                             <div>
-                                <label for="Search">Search:</label>
-                                <input type="text" required="required" name="Search" id="Search" class="homeinput" placeholder="Speciality, Service, Doctor, Clinic, etc." />
+                                <label for="Username">Username:</label>
+                                <input type="text" required="required" name="Username" id="Username" class="homeinput" />
                             </div>
                             <div>
-                                <label for="Location">Location:</label>
-                                <input type="text" required="required" name="location" id="Location" class="homeinput" placeholder="Current Location"/>
+                                <label for="Password">Password:</label>
+                                <input type="text" required="required" name="Password" id="Password" class="homeinput" />
                             </div>
                             <div>
-                                <label for="Date">Date:</label>
-                                <input type="date" required="required" name="date" id="Date" class="homeinput"/>
+                                <label for="Password2">Confirm Password:</label>
+                                <input type="text" required="required" name="Password2" id="Password2" class="homeinput" />
                             </div>
-                            <input name="searchbutton" type="button" onclick="alert('I love HTML!')" class="homebutton" value="search"/>
-        
+                            <div>
+                                <label for="Email">Confirm Password:</label>
+                                <input type="email" required="required" name="Email" id="Email" class="homeinput" />
+                            </div>
+                            <input name="registerbutton" type="button" class="homebutton" onclick="alert('I love HTML!')" value="Register"/>
                         </form>
+                        <hr>
+                        <p>Already have an account?<a href="login.html">Login here.</a></p>
                     </div>
             </div>
         </div>
         <div class="footer">
             <a href = "mailto:care@bookdoc.com"> care@bookdoc.com </a>	
 			<a id="mobile" href="tel:1300-88-2362">1300-88-2362</a>
-            <br>Copyright © 2019 Pacific Trails Resort
+            <br>
+            Copyright © 2019 Pacific Trails Resort
         </div>
     </body>
 </html>
